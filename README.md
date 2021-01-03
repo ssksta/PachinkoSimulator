@@ -1,0 +1,2 @@
+# PachinkoSimulator
+パチンコシミュレーター
