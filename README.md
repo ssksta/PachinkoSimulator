@@ -1,2 +1,3 @@
 # PachinkoSimulator
-パチンコシミュレーター
+JavaFXでパチンコシミュレーターを作成中
+
