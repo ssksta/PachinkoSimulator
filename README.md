@@ -1,3 +1,4 @@
 # PachinkoSimulator
-JavaFXでパチンコシミュレーターを作成中
-
+JavaFXでパチンコシミュレーター
+Liberica/jdk-11.0.8-full.jdk
+進捗5％
