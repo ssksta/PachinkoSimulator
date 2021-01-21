@@ -2,7 +2,7 @@ package main;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import machine.AddButton;
+import machine.view.AddButton;
 
 import java.net.URL;
 import java.util.ResourceBundle;

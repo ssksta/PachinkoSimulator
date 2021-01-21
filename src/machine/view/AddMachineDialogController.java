@@ -1,4 +1,5 @@
-package machine;
+package machine.view;
 
 public class AddMachineDialogController {
+
 }

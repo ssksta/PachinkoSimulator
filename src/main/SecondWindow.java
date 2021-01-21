@@ -15,6 +15,7 @@ public class SecondWindow {
     /**
      * 新規のWindowを作成(BorderPane限定)
      * @param url
+     * @param tittle
      */
     public void showNewWindow(URL url, String tittle){
         try {
