@@ -6,13 +6,13 @@ public class MachineSpec {
 
     private String name;
 
-    private int lowProb;
+    private Integer lowProb;
 
-    private int highProb;
+    private Integer highProb;
 
-    private int otherProb;
+    private Integer otherProb;
 
-    private int anotherProb;
+    private Integer anotherProb;
 
     private List<Proportion> proportions;
 
@@ -24,35 +24,35 @@ public class MachineSpec {
         this.name = name;
     }
 
-    public int getLowProb() {
+    public Integer getLowProb() {
         return lowProb;
     }
 
-    public void setLowProb(int lowProb) {
+    public void setLowProb(Integer lowProb) {
         this.lowProb = lowProb;
     }
 
-    public int getHighProb() {
+    public Integer getHighProb() {
         return highProb;
     }
 
-    public void setHighProb(int highProb) {
+    public void setHighProb(Integer highProb) {
         this.highProb = highProb;
     }
 
-    public int getOtherProb() {
+    public Integer getOtherProb() {
         return otherProb;
     }
 
-    public void setOtherProb(int otherProb) {
+    public void setOtherProb(Integer otherProb) {
         this.otherProb = otherProb;
     }
 
-    public int getAnotherProb() {
+    public Integer getAnotherProb() {
         return anotherProb;
     }
 
-    public void setAnotherProb(int anotherProb) {
+    public void setAnotherProb(Integer anotherProb) {
         this.anotherProb = anotherProb;
     }
 

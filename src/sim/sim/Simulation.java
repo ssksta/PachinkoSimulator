@@ -23,7 +23,7 @@ public class Simulation {
     private void oneDay(){
         for(int i=0;i<4000;i++){
             int rn = SimLogic.rm_65536();
-            if(rn> machineSpec.getLowProb()){
+            if(rn > machineSpec.getLowProb()){
                 System.out.println("Hit!!");
             }
         }
