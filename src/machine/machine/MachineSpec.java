@@ -2,6 +2,9 @@ package machine.machine;
 
 import java.util.List;
 
+/**
+ * スペックを格納するObject
+ */
 public class MachineSpec {
 
     private String name;

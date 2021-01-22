@@ -1,5 +1,8 @@
 package machine.machine;
 
+/**
+ * シミュレーションの結果Object
+ */
 public class MachineData {
 
     /**

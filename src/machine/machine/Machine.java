@@ -1,5 +1,8 @@
 package machine.machine;
 
+/**
+ * 台の情報をまとめたObject
+ */
 public class Machine {
 
     private MachineSpec machineSpec;
