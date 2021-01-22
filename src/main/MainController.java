@@ -1,8 +1,9 @@
 package main;
 
+import exception.ObjectNullException;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import machine.machine.MachineSpec;
+import machine.machine.Machine;
 import machine.view.AddButton;
 import sim.sim.Simulation;
 
@@ -20,14 +21,16 @@ public class MainController implements Initializable {
     public void addButton(){
         new AddButton().openAddMachineDialog();
         //ToDo 追加ボタンが何回も押せる。openAddMachineDialogが開いてるときはdisableにしたい
-
     }
 
     @FXML
     public void execute(){
-        MachineSpec machineSpec = new MachineSpec();
-        Simulation simulation = new Simulation(machineSpec);
-        simulation.execute();
-
+        Machine machine = new Machine();
+        try{
+            Simulation simulation = new Simulation(machine);
+            simulation.execute();
+        }catch (ObjectNullException e){
+            e.showLog();
+        }
     }
 }

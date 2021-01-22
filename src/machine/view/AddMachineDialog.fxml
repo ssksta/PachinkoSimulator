@@ -1,10 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
 
-<BorderPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="machineSpec.view.AddMachineDialogController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<BorderPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="machine.view.AddMachineDialogController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="600.0" style="-fx-border-color: gray; -fx-border-width: 0.2px;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="298.0" layoutY="85.0" text="Label" />
+            <TextField layoutX="113.0" layoutY="83.0" />
+            <TextField layoutX="82.0" layoutY="48.0" />
+         </children></AnchorPane>
+   </center>
+   <top>
+      <AnchorPane prefHeight="100.0" prefWidth="600.0" style="-fx-border-color: gray; -fx-border-width: 0.2px;" BorderPane.alignment="CENTER">
+         <children>
+            <VBox layoutX="6.0" layoutY="-41.0" prefHeight="100.0" prefWidth="50.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Label prefHeight="35.0" text="機種名" />
+               </children>
+            </VBox>
+            <Label layoutX="153.0" layoutY="40.0" text="Label" />
+         </children></AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="200.0" prefWidth="600.0" style="-fx-border-color: gray; -fx-border-width: 0.2px;" BorderPane.alignment="CENTER" />
+   </bottom>
 </BorderPane>

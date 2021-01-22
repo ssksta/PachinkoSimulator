@@ -1,5 +1,7 @@
 package sim.sim;
 
+import exception.ObjectNullException;
+import exception.Validator;
 import machine.machine.*;
 import sim.logic.SimLogic;
 
@@ -10,7 +12,12 @@ public class Simulation {
     private MachineData data;
     private SimulationConditions conditions;
 
-    public Simulation(Machine machine){
+    private Validator validator;
+
+    public Simulation(Machine machine) throws ObjectNullException{
+        validator = new Validator();
+        validator.check(machine);
+
         this.spec = machine.getMachineSpec();
         this.status = machine.getMachineStatus();
         this.data = machine.getMachineData();
