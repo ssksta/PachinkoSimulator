@@ -15,7 +15,7 @@
    <top>
       <AnchorPane prefHeight="100.0" prefWidth="600.0" style="-fx-border-color: gray; -fx-border-width: 0.2px;" BorderPane.alignment="CENTER">
          <children>
-            <VBox layoutX="6.0" layoutY="-41.0" prefHeight="99.0" prefWidth="358.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="1.0">
+            <VBox layoutX="6.0" layoutY="-41.0" prefHeight="99.0" prefWidth="235.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="1.0">
                <children>
                   <HBox prefHeight="33.0" prefWidth="200.0">
                      <children>
@@ -29,7 +29,7 @@
                   </HBox>
                   <HBox prefHeight="33.0" prefWidth="200.0">
                      <children>
-                        <Label prefHeight="33.0" prefWidth="60.0" text="koukaku" />
+                        <Label prefHeight="33.0" prefWidth="60.0" text="高確率" />
                         <TextField>
                            <HBox.margin>
                               <Insets top="3.0" />
@@ -39,7 +39,7 @@
                   </HBox>
                   <HBox prefHeight="33.0" prefWidth="200.0">
                      <children>
-                        <Label prefHeight="33.0" prefWidth="60.0" text="teikaku" />
+                        <Label prefHeight="33.0" prefWidth="60.0" text="低確率" />
                         <TextField>
                            <HBox.margin>
                               <Insets top="3.0" />
@@ -49,7 +49,42 @@
                   </HBox>
                </children>
             </VBox>
-         </children></AnchorPane>
+            <VBox layoutX="250.0" layoutY="1.0" prefHeight="100.0" prefWidth="295.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="1.0">
+               <children>
+                  <HBox prefHeight="33.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="33.0" prefWidth="75.0" text="小当り確率" />
+                        <TextField>
+                           <HBox.margin>
+                              <Insets top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="33.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="33.0" prefWidth="75.0" text="転落確率" />
+                        <TextField>
+                           <HBox.margin>
+                              <Insets top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="33.0" prefWidth="200.0">
+                     <children>
+                        <Label prefHeight="33.0" prefWidth="75.0" text="その他確率" />
+                        <TextField>
+                           <HBox.margin>
+                              <Insets top="3.0" />
+                           </HBox.margin>
+                        </TextField>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
    </top>
    <bottom>
       <AnchorPane prefHeight="200.0" prefWidth="600.0" style="-fx-border-color: gray; -fx-border-width: 0.2px;" BorderPane.alignment="CENTER" />
